@@ -4,7 +4,7 @@ body {
   height: 100%;
 }
 
-.block1 {
+.header {
   position: absolute;
   left: 0;
   right: 0;
@@ -15,7 +15,7 @@ body {
   margin-right: 8px;
 }
 
-.subblock1 {
+.authr_pic {
   width: 20%;
   float: left;
   padding-left: 20px;
@@ -29,7 +29,7 @@ body {
   padding-bottom: 20px;
 }
 
-.subblock2 {
+.heading {
   width: 60%;
   float: left;
   color: salmon ;
@@ -38,7 +38,7 @@ body {
   text-align: center;
 }
 
-.subblock3 {
+.button {
   width: 20%;
   float: right;
   text-align: center;
@@ -46,20 +46,21 @@ body {
   color: red;
   }
 
-.block2 {
+.content {
   position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
   top: 0;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
   margin-top: 110px;
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 110px;
 }
 
-.block3 {
+.footer {
   background-color: MediumTurquoise  ;
   position: absolute;
   left: 0;
